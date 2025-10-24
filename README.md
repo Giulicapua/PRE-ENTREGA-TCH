@@ -26,34 +26,4 @@ Automatizar interacciones y validaciones dentro de la aplicación web **SauceDem
 
 ---
 
-## 📂Estructura del Proyecto
-pre-entrega-automation-testing-Giuli
-│
-├── 📂 pages/              
-│   ├── base_page.py          → Clase base con métodos reutilizables (esperas, navegación, etc.)
-│   ├── login_page.py         → Page Object del login (campos, botones, flujo de acceso)
-│   ├── inventory_page.py     → Page Object del catálogo (productos, menú, filtros)
-│   └── cart_page.py          → Page Object del carrito (items agregados, validaciones)
-│
-├── 📂 tests/
-│   ├── test_login.py         → Caso de prueba: Login exitoso
-│   ├── test_catalog.py       → Caso de prueba: Verificación del catálogo
-│   └── test_cart.py          → Caso de prueba: Interacción con el carrito
-│
-├── 📂 utils/                 
-│   └── (vacío o utilidades futuras) → Funciones auxiliares o datos compartidos
-│
-├── 📂 datos/                 
-│   └── (vacío o futuros CSV/JSON) → Datos externos para pruebas parametrizadas
-│
-├── 📂 reports/               
-│   ├── reporte.html          → Reporte HTML generado por Pytest
-│   ├── *.png                 → Capturas automáticas en caso de fallos
-│   └── *.html                → HTMLs de las páginas en el momento del error
-│
-├── ⚙️ conftest.py             → Configuración general de Pytest, fixture del WebDriver y hooks
-├── 📄 requirements.txt        → Dependencias necesarias del entorno
-├── 🧩 pytest.ini              → Configuración global para ejecución y marcadores de pruebas
-└── 📘 README.md               → Documentación completa del proyecto
-
 
