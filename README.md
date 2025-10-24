@@ -1,11 +1,11 @@
-#Pre-Entrega de Proyecto — Automatización Web con Selenium y Pytest
+# Pre-Entrega de Proyecto — Automatización Web con Selenium y Pytest
 
 Este proyecto corresponde a la **pre-entrega** del curso de *Automatización de Pruebas con Selenium y Python*.  
 El objetivo es demostrar el uso de **Selenium WebDriver** junto con **Pytest** para automatizar flujos básicos del sitio web [saucedemo.com](https://www.saucedemo.com).
 
 ---
 
-##Objetivo General
+## Objetivo General
 
 Automatizar interacciones y validaciones dentro de la aplicación web **SauceDemo**, aplicando los conceptos aprendidos hasta la Clase 8:
 - Manejo de **localizadores**.
@@ -16,7 +16,7 @@ Automatizar interacciones y validaciones dentro de la aplicación web **SauceDem
 
 ---
 
-##Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **Python 3.10+**
 - **Selenium 4**
